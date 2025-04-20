@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Cool Runner Sneakers",
+    "description": "Lightweight and comfortable running shoes.",
+    "price": 79.99,
+    "availability": "available",
+    "image": "https://via.placeholder.com/300x200?text=Cool+Runner+Sneakers",
+    "recommended": true
+  },
+  {
+    "id": 2,
+    "name": "Urban Style Boots",
+    "description": "Stylish boots for everyday wear.",
+    "price": 120.00,
+    "availability": "available",
+    "image": "https://via.placeholder.com/300x200?text=Urban+Style+Boots",
+    "recommended": false
+  },
+  {
+    "id": 3,
+    "name": "Classic Leather Shoes",
+    "description": "Elegant leather shoes for formal occasions.",
+    "price": 150.00,
+    "availability": "outofstock",
+    "image": "https://via.placeholder.com/300x200?text=Classic+Leather+Shoes",
+    "recommended": true
+  },
+  {
+    "id": 4,
+    "name": "Sporty Sandals",
+    "description": "Comfortable sandals for summer days.",
+    "price": 45.00,
+    "availability": "available",
+    "image": "https://via.placeholder.com/300x200?text=Sporty+Sandals",
+    "recommended": false
+  }
+]
