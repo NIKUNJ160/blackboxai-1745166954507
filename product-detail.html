@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Product Details - Cool Shoes Store</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+  <header class="bg-white shadow-md">
+    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-indigo-600">Cool Shoes Store</h1>
+      <nav class="space-x-6 text-gray-700">
+        <a href="index.html" class="hover:text-indigo-600 transition">Home</a>
+        <a href="products.html" class="hover:text-indigo-600 transition font-semibold">Products</a>
+        <a href="cart.html" class="hover:text-indigo-600 transition relative">
+          Cart
+          <span class="absolute -top-2 -right-3 bg-red-600 text-white rounded-full text-xs w-5 h-5 flex items-center justify-center">0</span>
+        </a>
+        <a href="login.html" class="hover:text-indigo-600 transition">Login</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container mx-auto px-6 py-12">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+      <div>
+        <img id="product-image" src="https://via.placeholder.com/400" alt="Product Image" class="rounded-lg shadow-md" />
+      </div>
+      <div>
+        <h2 id="product-name" class="text-3xl font-bold mb-4">Product Name</h2>
+        <p id="product-description" class="text-gray-700 mb-6">Detailed description of the product goes here.</p>
+        <p id="product-availability" class="mb-4 font-semibold">Availability: <span class="text-green-600">In Stock</span></p>
+        <p id="product-price" class="text-2xl font-bold mb-6">$99.99</p>
+        <button id="add-to-cart-btn" class="bg-indigo-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-indigo-700 transition">Add to Cart</button>
+      </div>
+    </div>
+  </main>
+
+  <footer class="bg-white border-t mt-12 py-6 text-center text-gray-600">
+    &copy; 2024 Cool Shoes Store. All rights reserved.
+  </footer>
+
+  <script src="assets/js/scripts.js"></script>
+</body>
+</html>
